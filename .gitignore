@@ -1,0 +1,4 @@
+__pycache__
+.env
+azure_openai_usage.log
+

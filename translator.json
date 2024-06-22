@@ -1,0 +1,42 @@
+{
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "original": "\u0935\u093f\u0926\u093e\u0930\u0940\u092a\u091e\u094d\u091a\u093e\u0919\u094d\u0917\u0941\u0932\u0935\u0943\u0936\u094d\u091a\u093f\u0915\u093e\u0932\u0940\u0935\u0943\u0936\u094d\u091a\u0940\u0935\u0926\u0947\u0935\u093e\u0939\u094d\u0935\u092f\u0936\u0942\u0930\u094d\u092a\u092a\u0930\u094d\u0923\u094d\u092f\u0903\n\u0915\u0923\u094d\u0921\u0942\u0915\u0930\u0940 \u091c\u0940\u0935\u0928\u093e\u0939\u094d\u0935\u0938\u094d\u0935\u0938\u0902\u091c\u094d\u091e\u0947 \u0926\u094d\u0935\u0947 \u092a\u091e\u094d\u091a\u0915\u0947 \u0917\u094b\u092a\u0938\u0941\u0924\u093e \u0924\u094d\u0930\u093f\u092a\u093e\u0926\u0940",
+        "lang": "sanskrit",
+        "rationale": "produce the English translation of this Sanskrit passage. We will identify each word and its meaning, then form phrases, and finally construct a coherent sentence.",
+        "english": "The five-fingered Vishchika fish with a long tail resembling the Vrishchika (Scorpio) sign, Devaahvaya, Shoopa, Parnya, Kandookari, Jivanahvasva, and Tripaadi are the two sons of Gopasuta."
+      },
+      {
+        "augmented": true,
+        "original": "\u0936\u093e\u0932\u093f\u0936\u0947\u0916\u0930\u092e\u0924\u094d\u0935\u0930\u094d\u0925\u092e\u093e\u0932\u093f\u092d\u0930\u094d\u0924\u0943\u0927\u0930\u093e \u0905\u092a\u093f \u092d\u094b\u091c\u094d\u092f\u093e\u0926\u094d \u092d\u0941\u0917\u0928\u094d\u0927\u094b\u0935\u094d\u0930\u0924\u0932\u093f\u091f\u094d\u092a\u093e\u092f\u093f\u092a\u093e\u0936\u093e\u0936\u0928\u093e\u0926\u092f\u0903",
+        "lang": "sanskrit",
+        "rationale": "produce the English translation. We'll start by breaking down the Sanskrit text into individual parts, and then we'll translate each part into English while considering the overall context and meaning of the sentence.",
+        "english": "The Shalishekhara bearing Alibhartri, Apis, Bhugandhovratalitpai, Pasasana, and others are edible."
+      },
+      {
+        "lang": "sanskrit",
+        "original": "\u0936\u093f\u0915\u094d\u0937\u093e \u0915\u0932\u094d\u092a\u094b \u0935\u094d\u092f\u093e\u0915\u0930\u0923\u0902 \u0928\u093f\u0930\u0941\u0915\u094d\u0924\u0902 \u091c\u094d\u092f\u094b\u0924\u093f\u0937\u093e\u0902 \u0917\u0924\u093f\u0903 \u091b\u0928\u094d\u0926\u094b \u093d\u092d\u093f\u0927\u093e\u0928\u0902 \u092e\u0940\u092e\u093e\u0902\u0938\u093e \u0927\u0930\u094d\u092e\u0936\u093e\u0938\u094d\u0924\u094d\u0930\u0902 \u092a\u0941\u0930\u093e\u0923\u0915\u092e\u094d",
+        "english": "Shiksha (Phonetics) is the science of pronunciation, Kalpa (Rituals) deals with the rules for rituals, Vyakarana (Grammar) is the study of grammar, Nirukta (Etymology) explains the meaning of words, Jyotisha (Astrology) is the study of celestial bodies and their influence, Chanda (Prosody) deals with the rules of meter, Abhidhana (Lexicography) is the compilation of dictionaries, Mimamsa (Interpretation) is the study of interpretation of scriptures, Dharma Shastra (Law) deals with the rules of conduct, and Purana (Mythology) contains ancient stories and legends."
+      },
+      {
+        "lang": "sanskrit",
+        "original": "\u0930\u093e\u092e\u0926\u0942\u0924\u094b \u0930\u093e\u0918\u0935\u093e\u092f \u0938\u0940\u0924\u093e\u0902 \u0926\u0947\u0939\u093f \u092e\u0930\u093f\u0937\u094d\u092f\u0938\u093f \u0930\u093e\u092e\u092c\u093e\u0923\u0948\u0930\u094d \u0939\u0924\u0903 \u0938\u093e\u0930\u094d\u0927\u0902 \u0932\u0919\u094d\u0915\u093e\u0938\u094d\u0925\u0948 \u0930\u093e\u0915\u094d\u0937\u0938\u0948\u0930\u094d \u0927\u094d\u0930\u0941\u0935\u092e\u094d",
+        "english": "O messenger of Rama, give Sita to Rama, otherwise you will die. Ravana, along with the demons in Lanka, was certainly killed by Rama's arrows."
+      },
+      {
+        "lang": "sanskrit",
+        "original": "\u0927\u0930\u094d\u092e\u093e\u0923\u093e\u0902 \u092a\u094d\u0930\u0935\u093f\u091a\u092f\u092e\u0928\u094d\u0924\u0930\u0947\u0923 \u0928\u093e\u0938\u094d\u0924\u093f \u0915\u094d\u0932\u0947\u0936\u093e\u0928\u093e\u0902 \u092f\u0924 \u0909\u092a\u0936\u093e\u0928\u094d\u0924\u092f\u0947\u093d\u092d\u094d\u092f\u0941\u092a\u093e\u092f\u0903 \u0915\u094d\u0932\u0947\u0936\u0948\u0936\u094d\u091a \u092d\u094d\u0930\u092e\u0924\u093f \u092d\u0935\u093e\u0930\u094d\u0923\u0935\u0947\u093d\u0924\u094d\u0930 \u0932\u094b\u0915\u0938\u094d\u0924\u0926\u094d\u0927\u0947\u0924\u094b\u0930\u0924 \u0909\u0926\u093f\u0924\u0903 \u0915\u093f\u0932\u0948\u0937 \u0936\u093e\u0938\u094d\u0924\u094d\u0930\u093e",
+        "english": "There is no other way to alleviate the sufferings of beings than through the realization of the true nature of dharma. In this ocean of existence, beings are bewildered by their sufferings. The scriptures proclaim that the ultimate solution lies in the understanding of dharma."
+      }
+    ],
+    "signature_instructions": "Translate to English",
+    "signature_prefix": "English:",
+    "extended_signature_instructions": "Translate to English",
+    "extended_signature_prefix": "English:"
+  }
+}
